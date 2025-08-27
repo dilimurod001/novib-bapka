@@ -1,0 +1,135 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: yellow;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.play-btn {
+  background: cyan;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lang-select {
+  padding: 5px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: url("https://i.imgur.com/I2H0Mqe.jpeg") no-repeat center/cover;
+}
+
+.hero-title {
+  font-size: 28px;
+  background: yellow;
+  color: black;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.player-card {
+  background: #111;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.player-card img {
+  width: 150px;
+  border-radius: 10px;
+}
+
+.player-card h3 {
+  margin-top: 10px;
+}
+
+/* Info Section */
+.info {
+  padding: 30px;
+  text-align: center;
+}
+
+.info h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.read-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  background: gray;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.info-extra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.info-extra img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  padding: 15px;
+  text-align: center;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.socials img {
+  width: 25px;
+  margin: 0 8px;
+}
